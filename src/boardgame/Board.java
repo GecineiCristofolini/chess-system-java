@@ -23,8 +23,8 @@ public class Board {
 	}
 	
 	
-	public Piece piece ( int row,int column) {
-		if (!positionExists(row,column)) {
+	public Piece piece ( int rows,int columns) {
+		if (!positionExists(rows,columns)) {
 			throw new BoardException("Positon not on the board");
 		}
 			
